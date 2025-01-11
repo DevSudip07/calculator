@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUDIP'S CALCULATOR</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="cal-screen">
+            <div class="input">
+                <input id="input1" type="text" value="" disabled />
+                <input id="input2" type="text" value="" disabled />
+                <input id="input3" type="text" value="" disabled />
+            </div>
+            <div class="result">
+                <h2 id="ans">  </h2>
+            </div>
+        </div>
+        <div class="cal-btn">
+            <table>
+                <tr align="center">
+                    <td><button id="all-clear" type="button" value="AC">AC</button></td>
+                    <td><button id="modulus" type="button" value="%">%</button></td>
+                    <td><button id="clear" type="button" value="X">X</button></td>
+                    <td><button id="divide" type="button" value="/">/</button></td>
+                </tr>
+                <tr align="center">
+                    <td><button type="button" value="7">7</button></td>
+                    <td><button type="button" value="8">8</button></td>
+                    <td><button type="button" value="9">9</button></td>
+                    <td><button id="multiply" type="button" value="*">*</button></td>
+                </tr>
+                <tr align="center">
+                    <td><button type="button" value="4">4</button></td>
+                    <td><button type="button" value="5">5</button></td>
+                    <td><button type="button" value="6">6</button></td>
+                    <td><button id="subtract" type="button" value="-">-</button></td>
+                </tr>
+                <tr align="center">
+                    <td><button type="button" value="1">1</button></td>
+                    <td><button type="button" value="2">2</button></td>
+                    <td><button type="button" value="3">3</button></td>
+                    <td><button id="plus" type="button" value="+">+</button></td>
+                </tr>
+                <tr align="center">
+                    <td><button type="button" value="00">00</button></td>
+                    <td><button type="button" value="0">0</button></td>
+                    <td><button type="button" value=".">.</button></td>
+                    <td><button id="equal" type="button" value="=">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
